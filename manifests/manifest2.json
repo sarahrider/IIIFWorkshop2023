@@ -1,49 +1,84 @@
 {
-  "@context" : "http://iiif.io/api/presentation/2/context.json",
-  "@id" : "https://sarahrider.github.io/IIIFWorkshop2023/manifests/manifest2.json",
-  "@type" : "sc:Manifest",
-  "label" : "Denali Pool",
-  "metadata" : [ ],
-  "description" : [ {
-    "@value" : "This is an image of a glacial pool off the side of the Denali Highway in Alaska.",
-    "@language" : "en"
-  } ],
-  "license" : "https://creativecommons.org/licenses/by/3.0/",
-  "attribution" : "Uploaded by Sarah Rider but available as Creative Commons.",
-  "sequences" : [ {
-    "@id" : "http://4990806c-4a95-41a6-b6e7-1a0cd768270e",
-    "@type" : "sc:Sequence",
-    "label" : [ {
-      "@value" : "Normal Sequence",
-      "@language" : "en"
+  "@type" : "sc:AnnotationList",
+  "resources" : [ {
+    "resource" : [ {
+      "http://dev.llgc.org.uk/sas/full_text" : "Black Spruce",
+      "@type" : "dctypes:Text",
+      "format" : "text/html",
+      "chars" : "<p>Black Spruce</p>"
+    }, {
+      "http://dev.llgc.org.uk/sas/full_text" : "tree",
+      "@type" : "oa:Tag",
+      "chars" : "tree"
+    }, {
+      "http://dev.llgc.org.uk/sas/full_text" : "plant",
+      "@type" : "oa:Tag",
+      "chars" : "plant"
     } ],
-    "canvases" : [ {
-      "@id" : "http://d1318398-c2ef-47e0-9e9a-48af3c6475f1",
-      "@type" : "sc:Canvas",
-      "label" : "Denali Pool",
-      "height" : 1536,
-      "width" : 2304,
-      "images" : [ {
-        "@context" : "http://iiif.io/api/presentation/2/context.json",
-        "@id" : "http://ae945009-4ec8-4aab-ad04-af2c2e5338e4",
-        "@type" : "oa:Annotation",
-        "motivation" : "sc:painting",
-        "resource" : {
-          "@id" : "https://iiif.archivelab.org/iiif/img-6033_202308/full/full/0/default.jpg",
-          "@type" : "dctypes:Image",
-          "format" : "image/jpeg",
-          "service" : {
-            "@context" : "http://iiif.io/api/image/2/context.json",
-            "@id" : "https://iiif.archivelab.org/iiif/img-6033_202308",
-            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
-          },
-          "height" : 1536,
-          "width" : 2304
+    "@type" : "oa:Annotation",
+    "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/85252768",
+    "motivation" : [ "oa:commenting", "oa:tagging" ],
+    "dcterms:created" : "2023-08-29T15:22:56",
+    "@id" : "https://dev.gdmrdigital.com/annotation/anno/1693322576031",
+    "dcterms:modified" : "2023-08-29T15:24:07",
+    "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+    "on" : [ {
+      "within" : {
+        "@type" : "sc:Manifest",
+        "@id" : "https://sarahrider.github.io/IIIFWorkshop2023/manifests/manifest2.json"
+      },
+      "@type" : "oa:SpecificResource",
+      "selector" : {
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=600,844,68,136"
         },
-        "on" : "http://d1318398-c2ef-47e0-9e9a-48af3c6475f1"
-      } ],
-      "related" : ""
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M600.43831,843.81337h34.18182v0h34.18182v67.81818v67.81818h-34.18182h-34.18182v-67.81818z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;annotation&quot;:null,&quot;nonHoverStrokeColor&quot;:[&quot;Color&quot;,0,0.74902,1],&quot;editable&quot;:true}\" id=\"rectangle_1a009576-0034-4ee4-8f06-6c3cf799c0ad\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"28.76404\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        },
+        "@type" : "oa:Choice"
+      },
+      "full" : "http://d1318398-c2ef-47e0-9e9a-48af3c6475f1"
+    } ]
+  }, {
+    "resource" : [ {
+      "http://dev.llgc.org.uk/sas/full_text" : "mountains",
+      "@type" : "oa:Tag",
+      "chars" : "mountains"
+    }, {
+      "http://dev.llgc.org.uk/sas/full_text" : "Brooks Range",
+      "@type" : "dctypes:Text",
+      "format" : "text/html",
+      "chars" : "<p>Brooks Range</p>"
+    } ],
+    "@type" : "oa:Annotation",
+    "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/85252768",
+    "motivation" : [ "oa:tagging", "oa:commenting" ],
+    "dcterms:created" : "2023-08-29T15:21:53",
+    "@id" : "https://dev.gdmrdigital.com/annotation/anno/1693322512469",
+    "dcterms:modified" : "2023-08-29T15:21:53",
+    "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+    "on" : [ {
+      "within" : {
+        "@type" : "sc:Manifest",
+        "@id" : "https://sarahrider.github.io/IIIFWorkshop2023/manifests/manifest2.json"
+      },
+      "@type" : "oa:SpecificResource",
+      "selector" : {
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=15,531,2289,294"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M14.8318,531.13761h1144.5841v0h1144.5841v147.1366v147.1366h-1144.5841h-1144.5841v-147.1366z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_b4cc35ed-b01b-4740-a68a-844a4c18b8ec\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        },
+        "@type" : "oa:Choice"
+      },
+      "full" : "http://d1318398-c2ef-47e0-9e9a-48af3c6475f1"
     } ]
   } ],
-  "structures" : [ ]
+  "@id" : "https://sarahrider.github.io/IIIFWorkshop2023/manifests/manifest2.json",
+  "@context" : "http://iiif.io/api/presentation/2/context.json"
 }
